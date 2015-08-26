@@ -12,20 +12,12 @@ Pick and choose what you want from *$(BaseDir)* and copy to manually to FlashDev
 
 ## Snippets
 
-### trace
-Traces out a selected variable with a label.
+### comment
+When working on large projects it can be difficult to pinpoint exactly who wrote what comments. This snippet will prefix any comment you make with the account name currently logged in.
+
 ```as3
-var example:String = 'This is an example';
-
-// Select text below and press [Ctrl+B], select 'trace' snippet.
-example
-
-// The above action will output the below.
-trace("example: "+example);
-
-/** Trace Log:
- * example: This is an example
- */
+// Using 'comment' snippet here produces the following.
+// [Bob]: <cursor starts here>
 ```
 
 ### log
@@ -50,7 +42,7 @@ package models
         {
             // Using 'log' snippet here produces the following trace statement.
             trace('models.ScoreModel.reset');
-             
+
             _score = 0;
             _updated.dispatch();
         }
@@ -74,4 +66,20 @@ package models
     }
 
 }
+```
+
+### trace
+Traces out a selected variable with a label.
+```as3
+var example:String = 'This is an example';
+
+// Select text below and press [Ctrl+B], select 'trace' snippet.
+example
+
+// The above action will output the below.
+trace("example: "+example);
+
+/** Trace Log:
+ * example: This is an example
+ */
 ```
