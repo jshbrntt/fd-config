@@ -7,5 +7,5 @@ Download *.fdz* file from releases and open it will auto-extract the configurati
 ## Manual Installation
 Pick and choose what you want from *$(BaseDir)* and copy to manually to FlashDevelop's installation directory. e.g.
 
-```C:\Program Files (x86)\FlashDeveloper```
-```%AppData%\FlashDevelop```
+- `C:\Program Files (x86)\FlashDevelop\`
+- `%AppData%\FlashDevelop\`
