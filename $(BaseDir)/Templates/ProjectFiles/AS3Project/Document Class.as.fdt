@@ -1,0 +1,19 @@
+package $(Package) $(CSLB){
+	import flash.display.Sprite;
+	
+	/**
+	$(CBI)* File: $(FileName).as
+	$(CBI)* Created: $(Timestamp)
+	$(CBI)* @author $(DefaultUser)
+	$(CBI)*/
+	
+	[SWF(width='$(Width)', height='$(Height)', backgroundColor='$(BgColor)', frameRate='$(FrameRate)')]
+	public class $(FileName) extends Sprite $(CSLB){
+		
+		public function $(FileName)() $(CSLB){
+			$(EntryPoint)
+		}
+		
+	}
+	
+}

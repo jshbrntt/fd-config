@@ -1,0 +1,12 @@
+﻿package $(CSLB){
+	
+	/**
+	$(CBI)* File: $(FileName).as
+	$(CBI)* Created: $(Timestamp)
+	$(CBI)* @author $(DefaultUser)
+	$(CBI)*/
+	public class $(EntryPoint) $(CSLB){
+		
+	}
+	
+}
